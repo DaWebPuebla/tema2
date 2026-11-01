@@ -1,0 +1,27 @@
+site_name: Despliegue de Aplicaciones Web - Tema 2
+site_url: https://DaWebPuebla.github.io/tema2
+theme:
+  name: material
+  font:
+    text: Roboto
+    code: Roboto Mono
+  features:
+    - navigation.top
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+copyright: Copyright &copy; 2026 Víctor Suárez. IES La Puebla de Vicar.  
+extra_css:
+  - css/styles.css
+nav:
+  - Home: index.md
+  - Introducción: introduccion.md
+  - Servidores de Aplicaciones:
+      - Introducción: servidores_aplicaciones/introduccion.md
+      - Servidores de Aplicaciones: servidores_aplicaciones/servidores_aplicaciones.md
+      - Aplicaciones (java): servidores_aplicaciones/aplicaciones_java.md
+      - Servidor de aplicaciones Tomcat: servidores_aplicaciones/servidor_tomcat.md
+      - Configuración de Tomcat: servidores_aplicaciones/configuracion_tomcat.md
+      - Despliegue de aplicaciones en Tomcat: servidores_aplicaciones/despliegue_aplicaciones_tomcat.md 
+  - Referencias: referencias.md
