@@ -14,6 +14,8 @@
         <link rel="prev" href="../aplicaciones_java/">
       
       
+        <link rel="next" href="../configuracion_tomcat/">
+      
       
         
       
@@ -391,6 +393,8 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
+      
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
           
@@ -433,6 +437,8 @@
   
   
   
+    
+  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -441,10 +447,38 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#servidor-de-aplicaciones-tomcat" class="md-nav__link">
+  <a href="#instalacion-y-configuracion-de-tomcat" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Servidor de aplicaciones Tomcat
+        Instalación y configuración de Tomcat
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Instalación y configuración de Tomcat">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#configuracion-de-variables-de-entorno" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Configuración de variables de entorno
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#arranque-y-parada-de-tomcat" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Arranque y parada de Tomcat
       
     </span>
   </a>
@@ -467,7 +501,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../configuracion_tomcat.md" class="md-nav__link">
+      <a href="../configuracion_tomcat/" class="md-nav__link">
         
   
   
@@ -495,7 +529,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../despliegue_aplicaciones_tomcat.md" class="md-nav__link">
+      <a href="../despliegue_aplicaciones_tomcat/" class="md-nav__link">
         
   
   
@@ -530,7 +564,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../referencias.md" class="md-nav__link">
+      <a href="../../referencias/" class="md-nav__link">
         
   
   
@@ -567,6 +601,8 @@
   
   
   
+    
+  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -575,10 +611,38 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#servidor-de-aplicaciones-tomcat" class="md-nav__link">
+  <a href="#instalacion-y-configuracion-de-tomcat" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Servidor de aplicaciones Tomcat
+        Instalación y configuración de Tomcat
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Instalación y configuración de Tomcat">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#configuracion-de-variables-de-entorno" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Configuración de variables de entorno
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#arranque-y-parada-de-tomcat" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Arranque y parada de Tomcat
       
     </span>
   </a>
@@ -602,9 +666,7 @@
 
 
 
-  <h1>Servidor de aplicaciones Tomcat</h1>
-
-<h2 id="servidor-de-aplicaciones-tomcat">Servidor de aplicaciones Tomcat</h2>
+<h1 id="servidor-de-aplicaciones-tomcat">Servidor de aplicaciones Tomcat</h1>
 <p>El servidor de aplicaciones Tomcat es un servidor de aplicaciones de código abierto, desarrollado por la Apache Software Foundation, que implementa las especificaciones de Java Servlet y JavaServer Pages (JSP). Es uno de los servidores de aplicaciones más populares y utilizados en el mundo del desarrollo web.</p>
 <p>Este servidor de aplicaciones es ligero y fácil de usar, lo que lo hace ideal para el desarrollo y despliegue de aplicaciones web basadas en Java. Además, Tomcat ofrece características avanzadas como la gestión de transacciones, la seguridad y la integración con bases de datos y otros servicios.</p>
 <p>Algunas de sus características principales son:</p>
@@ -631,6 +693,34 @@
 <p><strong>Comunidad activa</strong>: Tomcat cuenta con una comunidad activa de desarrolladores y usuarios, lo que permite a los desarrolladores obtener soporte y compartir conocimientos sobre el uso del servidor de aplicaciones.</p>
 </li>
 </ul>
+<figure>
+  <img src="../../img/tomcat.png" alt="Apache Tomcat">
+  <figcaption>Apache Tomcat Logo</figcaption>
+</figure>
+
+<h2 id="instalacion-y-configuracion-de-tomcat">Instalación y configuración de Tomcat</h2>
+<p>En primer lugar, vamos a ver los pasos para poder instalar y configurar tomcat. Hay que instalar Java Development Kit (JDK) en el sistema, ya que Tomcat requiere Java para funcionar. Puedes descargar e instalar la versión más reciente del JDK desde el sitio web oficial de Oracle o utilizar una distribución de OpenJDK.</p>
+<p>A continuación, descarga la versión más reciente de Apache Tomcat desde el sitio web oficial de Apache Tomcat. Asegúrate de elegir la versión compatible con tu sistema operativo y la versión de Java que has instalado.</p>
+<p><a href="https://tomcat.apache.org/download-11.cgi">Descarga de Apache Tomcat</a></p>
+<p>Una vez descargado el archivo comprimido, descomprímelo en un directorio de tu elección. Por ejemplo, puedes descomprimirlo en <code>/opt/tomcat</code> en sistemas Linux o en <code>C:\tomcat</code> en sistemas Windows.</p>
+<h3 id="configuracion-de-variables-de-entorno">Configuración de variables de entorno</h3>
+<p>Aunque por defecto no es necesario configurar variables de entorno para ejecutar Tomcat, es recomendable establecer la variable de entorno <code>JAVA_HOME</code> para que apunte al directorio donde se encuentra instalado el JDK. Esto permitirá a Tomcat encontrar y utilizar la versión correcta de Java.</p>
+<p>Estas variables de entorno son:</p>
+<ul>
+<li><strong>JAVA_HOME</strong>: Debe apuntar al directorio donde se encuentra instalado el JDK.</li>
+<li><strong>CATALINA_HOME</strong>: Debe apuntar al directorio donde se encuentra instalado Tomcat.</li>
+<li><strong>CATALINA_BASE</strong>: Debe apuntar al directorio donde se encuentra la instancia de Tomcat que deseas ejecutar. Por defecto, este valor es el mismo que <code>CATALINA_HOME</code>, pero puedes configurarlo para ejecutar múltiples instancias de Tomcat en el mismo sistema.</li>
+<li><strong>CATALINA_OPTS</strong>: Permite establecer opciones de configuración adicionales para la JVM utilizada por Tomcat, como la cantidad de memoria asignada o las opciones de depuración.</li>
+</ul>
+<h2 id="arranque-y-parada-de-tomcat">Arranque y parada de Tomcat</h2>
+<p>Para ejecutarlo, abre una terminal o línea de comandos y navega hasta el directorio <code>bin</code> dentro del directorio de Tomcat. Ejecuta el script <code>startup.sh</code> en sistemas Linux o <code>startup.bat</code> en sistemas Windows para iniciar el servidor de aplicaciones.</p>
+<p>En este caso, puedes abrir un navegador web y acceder a la URL <code>http://localhost:8080</code> para verificar que Tomcat se ha iniciado correctamente. Deberías ver la página de bienvenida de Tomcat.</p>
+<figure>
+  <img src="../../img/tomcat_inicio.png" alt="Página de bienvenida de Tomcat">
+  <figcaption>Página de bienvenida de Tomcat</figcaption>
+</figure>
+
+<p>Para detener el servidor de aplicaciones, ejecuta el script <code>shutdown.sh</code> en sistemas Linux o <code>shutdown.bat</code> en sistemas Windows desde el mismo directorio <code>bin</code>. Esto detendrá el servidor de aplicaciones de manera segura.</p>
 
 
 
