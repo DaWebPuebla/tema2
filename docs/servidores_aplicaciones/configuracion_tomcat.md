@@ -16,15 +16,15 @@ El fichero `server.xml` se encuentra en el directorio `conf` dentro del director
 
 Este fichero está estructurado en formato XML y contiene diferentes elementos y atributos que permiten personalizar el comportamiento de Tomcat. Algunos de los elementos más importantes son:
 
-* **<Server>**: Es el elemento raíz del fichero `server.xml`, que contiene la configuración global del servidor de aplicaciones.
+* **Server**: Es el elemento raíz del fichero `server.xml`, que contiene la configuración global del servidor de aplicaciones.
 
-* **<Service>**: Es el elemento que define un servicio de Tomcat, que puede contener uno o más conectores y un motor de procesamiento de solicitudes.
+* **Service**: Es el elemento que define un servicio de Tomcat, que puede contener uno o más conectores y un motor de procesamiento de solicitudes.
 
-* **<Connector>**: Es el elemento que define un conector de Tomcat, que permite recibir solicitudes HTTP o HTTPS desde los clientes y enviarlas al motor de procesamiento de solicitudes.
+* **Connector**: Es el elemento que define un conector de Tomcat, que permite recibir solicitudes HTTP o HTTPS desde los clientes y enviarlas al motor de procesamiento de solicitudes.
 
-* **<Engine>**: Es el elemento que define el motor de procesamiento de solicitudes de Tomcat, que se encarga de procesar las solicitudes recibidas por los conectores y generar las respuestas correspondientes.
+* **Engine**: Es el elemento que define el motor de procesamiento de solicitudes de Tomcat, que se encarga de procesar las solicitudes recibidas por los conectores y generar las respuestas correspondientes.
 
-* **<Host>**: Es el elemento que define un host virtual de Tomcat, que permite alojar múltiples aplicaciones web en el mismo servidor de aplicaciones.
+* **Host**: Es el elemento que define un host virtual de Tomcat, que permite alojar múltiples aplicaciones web en el mismo servidor de aplicaciones.
 
 Alguno de los fragmentos que podemos encontrar son:
 
